@@ -37,3 +37,53 @@ Vec2& Vec2::operator/=(float s){
 	y /= s;
 	  return *this;
 }
+
+// Addition operator overloading
+Vec2 operator+(const Vec2& u, const Vec2& v) {
+
+    Vec2 Object;
+    Object.x = u.x+v.x;
+    Object.y = u.y+v.y;
+
+    return Object;
+}
+
+// Subtraction operator overloading
+Vec2 operator-(const Vec2& u, const Vec2& v) {
+
+    Vec2 Object;
+    Object.x = u.x-v.x;
+    Object.y = u.y-v.y;
+
+    return Object;
+}
+
+// Multiplication with a float operator overloading
+Vec2 operator*(Vec2 const& v, float s) {
+
+    Vec2 Object;
+    Object.x = v.x*s;
+    Object.y = v.y*s;
+
+    return Object;
+}
+
+// Division with a float operator overloading
+Vec2 operator/(Vec2 const& v, float s) {
+
+    Vec2 Object;
+    Object.x = v.x*s;
+    Object.y = v.y*s;
+
+    return Object;
+}
+
+// Multiplication with a float operator overloading
+Vec2 operator*(float s, Vec2 const& v) {
+
+    Vec2 Object;
+    Object.x = s*v.x;
+    Object.y = s*v.y;
+
+    return Object;
+}
