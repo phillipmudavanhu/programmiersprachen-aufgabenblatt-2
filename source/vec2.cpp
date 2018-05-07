@@ -1,17 +1,11 @@
-#ifndef VEC2_HPP //This checks if the header is already declared some else.
-#define VEC2_HPP //This then difines the header if not defined already.
+#include "vec2.hpp"
 
-class Vec2
-{
-	public:
-		//Constructors
-	    
-	    Vec2(); //default
-	    Vec2(float x, float y); //intialisation with parameters
+// Default Constructor Method
+Vec2::Vec2() 
+    : x(0), y(0){
+}
 
-	    float x;
-		float y;
-
-		};
-
-#endif  // VEC2_HPP
+// User Defined Constructor Method
+Vec2::Vec2(float x, float y) 
+    : x(x), y(y){
+}

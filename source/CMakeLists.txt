@@ -25,3 +25,6 @@ target_link_libraries(tests
   )
 
 
+add_executable(vec2
+  vec2.cpp
+  )
