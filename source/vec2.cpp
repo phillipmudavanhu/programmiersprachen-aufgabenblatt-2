@@ -12,28 +12,28 @@ Vec2::Vec2(float x, float y)
 
 // Addition operator overloading
 Vec2& Vec2::operator+=(Vec2 const& v){
-	this -> x += v.x;
-	this -> y += v.y;
+	x += v.x;
+	y += v.y;
       return *this; 
 }
 
 // Subtraction operator overloading
 Vec2& Vec2::operator-=(Vec2 const& v){
-	this -> x -= v.x;
-	this -> y -= v.y;
+	x -= v.x;
+	y -= v.y;
       return *this; 
 }
 
 // Multiplication operator overloading
 Vec2& Vec2::operator*=(float s){
-	this -> x *= s;
-	this -> y *= s;
+	x *= s;
+	y *= s;
 	  return *this; 
 }
 
 // Division operator overloading
 Vec2& Vec2::operator/=(float s){
-   this -> x /= s;
-   this -> y /= s;
-    return *this;
+	x /= s;
+	y /= s;
+	  return *this;
 }
