@@ -26,6 +26,11 @@ TEST_CASE("Testing User Defined Constructor","[Constructor]"){
   REQUIRE(c.y == -2.2f);
 }
 
+/*Destructor: is a programm that destroys the instance of an object once it has been used. 
+It frees up the memory and in our case we do not need a desctructor since the memory we 
+are using is small and can be cleared by the operating system once we finish with our programm */
+
+
 
 int main(int argc, char *argv[])
 {
