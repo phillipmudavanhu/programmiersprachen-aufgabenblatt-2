@@ -8,11 +8,11 @@ public:
 	
 	Rectangle(); // default Constructor 
 	
-	Rectangle(Vec2 const& Vec0, float x, float y); 
+	Rectangle(Vec2 const& Rec1, float x, float y); 
 	
 	float x_; 
 	float y_; 
-	Vec2 Vec0_; 
+	Vec2 Rec1_; 
 
 
 	//Getter

@@ -8,13 +8,15 @@ struct Vec2
   Vec2(); //default
   Vec2(float x, float y); //intialisation with parameters
 
-  float x;
-  float y;
 
   Vec2& operator+=(Vec2 const& v );
   Vec2& operator-=(Vec2 const& v );
   Vec2& operator*=(float s);
   Vec2& operator/=(float s);
+
+  
+  float x;
+  float y;
 
 };
 
